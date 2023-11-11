@@ -42,7 +42,7 @@ void loop() {
   float h = sht31.readHumidity();
 
   if (!isnan(t)) {  // check if 'is not a number'
-    float tF = ((t * 9.0) / 5.0) + 32 - 3; // Convert Celsius to Fahrenheit and adjust by -3 degrees
+    float tF = ((t * 9.0) / 5.0) + 32 - 3; // Convert Celsius to Fahrenheit and adjust by -3 degrees  (what I observed)
     Serial.print("Temp *F = "); Serial.print(tF); Serial.print("\t\t");
   } else { 
     Serial.println("Failed to read temperature");
