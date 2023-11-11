@@ -14,8 +14,8 @@
 #include <Adafruit_SHT31.h>
 
 // Replace with your network credentials
-const char* ssid = "shop2";
-const char* password = "mine0313";
+const char* ssid = "your_AP";
+const char* password = "Your_password";
 
 ESP8266WebServer server(80);  // Use WebServer server(80) for ESP32
 
