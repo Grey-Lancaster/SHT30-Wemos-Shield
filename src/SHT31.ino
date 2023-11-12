@@ -30,7 +30,7 @@ void handleRoot() {
   float tF = ((t * 9.0) / 5.0) + 32 - 3;  // Adjusted Fahrenheit value
 
   String html = "<html><head><meta http-equiv='refresh' content='5'></head><body>";
-  html += "<h1>SHT31 Sensor Data At the Grey Farm</h1>";
+  html += "<h1>SHT31 Sensor Data At the Grey FOX</h1>";
   html += "<p>Temperature: " + String(tF) + " &deg;F</p>";
   html += "<p>Humidity: " + String(h) + " %</p>";
   html += "</body></html>";
