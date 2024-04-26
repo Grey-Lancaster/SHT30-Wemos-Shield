@@ -15,8 +15,8 @@
 #include <ESP8266mDNS.h>  // mDNS library
 
 // Replace with your network credentials
-const char* ssid = "shop2";
-const char* password = "mine0313";
+const char* ssid = "xxxx";
+const char* password = "xxxx";
 
 ESP8266WebServer server(80);  // Use WebServer server(80) for ESP32
 
